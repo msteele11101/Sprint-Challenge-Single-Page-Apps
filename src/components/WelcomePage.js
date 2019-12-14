@@ -10,6 +10,7 @@ const WelcomeImg = styled.img`
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
+  border: solid 2px #e2e25a;
 `;
 
 export default function WelcomePage() {

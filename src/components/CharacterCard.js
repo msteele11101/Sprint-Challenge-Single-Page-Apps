@@ -10,6 +10,7 @@ export default function CharacterCard(props) {
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
+    border: solid 2px #e2e25a;
   `;
 
   const CardImg = styled.img`
@@ -34,6 +35,7 @@ export default function CharacterCard(props) {
     color: #6fb03e;
     padding: 10px;
     border-radius: 5px;
+    border: solid 2px #e2e25a;
   `;
 
   return (
